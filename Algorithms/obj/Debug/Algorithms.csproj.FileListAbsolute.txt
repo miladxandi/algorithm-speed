@@ -1,0 +1,17 @@
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\MainWindow.g.cs
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\App.g.cs
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms_MarkupCompile.cache
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms_MarkupCompile.lref
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\MainWindow.baml
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.g.resources
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.Properties.Resources.resources
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.GenerateResource.Cache
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\bin\Debug\Assets\Algorithms.accdb
+C:\Users\farva\Source\Repos\Algorithms\Algorithms\obj\Debug\Algorithms_Content.g.cs
