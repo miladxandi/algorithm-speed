@@ -246,7 +246,7 @@ namespace Algorithms
                 Color Green = new Color();
                 Green = Color.FromRgb(32, 238, 0);
                 lblText.Foreground = new SolidColorBrush(Green);
-                lblText.Text = $"Yeah! We`ve sorted {inputArray} .";
+                lblText.Text = "Yeah! We`ve sorted the array.";
                 var fTime = DateTime.Now.Millisecond;
                 int Time = fTime - sTime;
                 liView.Items.Add($"The array were sorted in {Time} millisecond with Bubble sort with these values:");
