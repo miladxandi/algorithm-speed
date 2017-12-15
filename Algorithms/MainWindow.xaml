@@ -12,7 +12,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle Fill="#FF007ACC" Margin="0,0,0,511" Stroke="#FF007ACC"/>
-        <Button x:Name="firstBtn" Content="GET NUMBERS" Margin="0,0,213,178" Background="#FF007ACC" BorderBrush="#FF007ACC" Foreground="White" MouseEnter="Button_MouseEnter" MouseLeave="firstBtn_MouseLeave" HorizontalAlignment="Right" Width="97" Height="38" VerticalAlignment="Bottom" Click="firstBtn_Click"/>
+        <Button x:Name="firstBtn" Content="GET NUMBERS" Margin="0,0,213,94" Background="#FF007ACC" BorderBrush="#FF007ACC" Foreground="White" MouseEnter="Button_MouseEnter" MouseLeave="firstBtn_MouseLeave" HorizontalAlignment="Right" Width="97" Height="38" VerticalAlignment="Bottom" Click="firstBtn_Click"/>
         <ListView x:Name="liView" HorizontalAlignment="Left" Width="440" Foreground="#FF007ACC" BorderBrush="White" Height="511" VerticalAlignment="Bottom"  HorizontalContentAlignment="Center" IsSynchronizedWithCurrentItem="True" SelectedIndex="0">
             <ListView.View>
                 <GridView ColumnHeaderStringFormat="Information">
@@ -23,12 +23,12 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <RadioButton x:Name="binary" Content="Binary Search" Margin="0,0,9,241" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <RadioButton x:Name="linear" Content="Linear Search" Margin="0,0,111,241" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97"/>
-        <RadioButton x:Name="qsort" Content="Quick Sort" Margin="0,0,213,241" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <TextBlock x:Name="lblText" Margin="0,0,9,275" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
-        <RadioButton x:Name="bsort" Content="Bubble Sort" Margin="0,0,315,241" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <RadioButton x:Name="hanoi" Content="Hanoi Sort" Margin="0,0,417,241" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="binary" Content="Binary Search" Margin="0,0,9,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="linear" Content="Linear Search" Margin="0,0,111,157" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97"/>
+        <RadioButton x:Name="qsort" Content="Quick Sort" Margin="0,0,213,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="lblText" Margin="0,0,9,191" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
+        <RadioButton x:Name="bsort" Content="Bubble Sort" Margin="0,0,315,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="hanoi" Content="Hanoi Sort" Margin="0,0,417,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>
