@@ -1,19 +1,43 @@
-﻿<Window x:Class="Algorithms.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Algorithms"
+        xmlns:MaterialCards="clr-namespace:Wpf.CartesianChart.MaterialCards" x:Class="Algorithms.MainWindow"
         mc:Ignorable="d"
         WindowState="Normal"
-        Title="MainWindow" Height="650" Width="986" >
-    <Grid Background="#FF9E9E9E">
+        Title="MainWindow" Height="650" Width="986" MinWidth="986" MinHeight="650" Icon="Assets/Logo.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" >
+    <Grid Background="#FFE17B9A">
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="#FF007ACC" Margin="0,0,0,511" Stroke="#FF007ACC"/>
-        <Button x:Name="firstBtn" Content="GET NUMBERS" Margin="0,0,213,94" Background="#FF007ACC" BorderBrush="#FF007ACC" Foreground="White" MouseEnter="Button_MouseEnter" MouseLeave="firstBtn_MouseLeave" HorizontalAlignment="Right" Width="97" Height="38" VerticalAlignment="Bottom" Click="firstBtn_Click"/>
-        <ListView x:Name="liView" HorizontalAlignment="Left" Width="440" Foreground="#FF007ACC" BorderBrush="White" Height="511" VerticalAlignment="Bottom"  HorizontalContentAlignment="Center" IsSynchronizedWithCurrentItem="True" SelectedIndex="0">
+        <Rectangle Fill="#FFCE2156" Margin="0,0,0,511" Stroke="#FFCE2156"/>
+        <Button x:Name="firstBtn" Content="Generate" Width="97" Margin="0,0,213,153" Foreground="White" BorderBrush="#FFCE2156" Background="#FFCE2156" MouseEnter="Button_MouseEnter" MouseLeave="firstBtn_MouseLeave" HorizontalAlignment="Right" Click="firstBtn_Click" Height="43" VerticalAlignment="Bottom" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" CornerRadius="1,8,1,8" BorderThickness="2" Background="#FFCE2156" BorderBrush="#FFCE2156">
+                        <Border.Effect>
+                            <DropShadowEffect />
+                        </Border.Effect>
+                        <ContentPresenter Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" Property="BorderBrush" Value="#FFFF0C57" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" Property="Background" Value="#FFFF0C57" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" Property="Background" Value="#FFFF0C57" />
+                            <Setter TargetName="Border" Property="BorderBrush" Value="#FFFF0C57" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <ListView x:Name="liView" HorizontalAlignment="Left" Width="440" Foreground="#FFCE2156" BorderBrush="White" Height="511" VerticalAlignment="Bottom"  HorizontalContentAlignment="Center" IsSynchronizedWithCurrentItem="True" SelectedIndex="0">
             <ListView.View>
                 <GridView ColumnHeaderStringFormat="Information">
                     <GridView.ColumnHeaderContextMenu>
@@ -23,12 +47,17 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <RadioButton x:Name="binary" Content="Binary Search" Margin="0,0,9,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <RadioButton x:Name="linear" Content="Linear Search" Margin="0,0,111,157" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97"/>
-        <RadioButton x:Name="qsort" Content="Quick Sort" Margin="0,0,213,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <TextBlock x:Name="lblText" Margin="0,0,9,191" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
-        <RadioButton x:Name="bsort" Content="Bubble Sort" Margin="0,0,315,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <RadioButton x:Name="hanoi" Content="Hanoi Sort" Margin="0,0,417,157" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="binary" Content="Binary Search" Margin="0,0,9,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="linear" Content="Linear Search" Margin="0,0,111,229" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97"/>
+        <RadioButton x:Name="qsort" Content="Quick Sort" Margin="0,0,213,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="lblText" Margin="0,0,9,263" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
+        <RadioButton x:Name="bsort" Content="Bubble Sort" Margin="0,0,315,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <RadioButton x:Name="hanoi" Content="Hanoi Sort" Margin="0,0,417,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="Home" HorizontalAlignment="Left" Margin="60,29,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Charts" HorizontalAlignment="Left" Margin="220,29,0,0" TextWrapping="Wrap" Text="Charts" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" MouseDown="Charts_MouseDown"/>
+        <TextBlock x:Name="Resources" HorizontalAlignment="Left" Margin="380,29,0,0" TextWrapping="Wrap" Text="Resources" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Technologies" Margin="560,29,271,0" TextWrapping="Wrap" Text="Technologies" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Developer" Margin="761,29,70,0" TextWrapping="Wrap" Text="Developer" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" Height="27"/>
 
     </Grid>
 </Window>

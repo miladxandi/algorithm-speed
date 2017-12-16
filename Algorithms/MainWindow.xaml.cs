@@ -107,7 +107,7 @@ namespace Algorithms
                         var fTime = DateTime.Now.Millisecond;
                         int Time = fTime - sTime;
                         liView.Items.Add($"The generated value was {key} & founded in {Time} millisecond with Binary search.");
-                        Connect.ConnectionOpener(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\Assets\Algorithms.accdb;Persist Security Info=True", "INSERT INTO 'BinaryLog' ('Time', 'Number') VALUES ('" + int.Parse(Time.ToString()) + "','" + int.Parse(key.ToString()) + "')");
+                        //Connect.ConnectionOpener(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\Assets\Algorithms.accdb;Persist Security Info=True", "INSERT INTO 'BinaryLog' ('Time', 'Number') VALUES ('" + int.Parse(Time.ToString()) + "','" + int.Parse(key.ToString()) + "')");
                         return ++mid;
                     }
                     else if (key < inputArray[mid])
@@ -264,6 +264,13 @@ namespace Algorithms
                 lblText.Text = $"Nah! The {error.Message} value did not found";
                 return $"Nah! The {error.Message} value did not found";
             }
+        }
+
+        private void Charts_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var Charts = new Charts(); //create your new form.
+            Charts.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
         }
     }
 }

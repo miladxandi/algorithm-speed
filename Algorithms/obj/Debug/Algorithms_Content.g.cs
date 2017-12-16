@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/algorithms.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/algorithms.accdb")]
 
 

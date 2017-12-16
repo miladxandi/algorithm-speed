@@ -1,0 +1,48 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Algorithms"
+        xmlns:MaterialCards="clr-namespace:Wpf.CartesianChart.MaterialCards" x:Class="Algorithms.Charts"
+        mc:Ignorable="d"
+        Title="Charts" Height="650" Width="986" MinWidth="986" MinHeight="650" Icon="Assets/Logo.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" >
+    <Grid Background="#FFE17B9A">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFCE2156" Margin="0,0,0,511" Stroke="#FFCE2156"/>
+        <Button x:Name="firstBtn" Content="Generate" Margin="442,0,442,38" Foreground="White" BorderBrush="#FFCE2156" Background="#FFCE2156" Height="43" VerticalAlignment="Bottom" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="Border" CornerRadius="1,8,1,8" BorderThickness="2" Background="#FFCE2156" BorderBrush="#FFCE2156">
+                        <Border.Effect>
+                            <DropShadowEffect />
+                        </Border.Effect>
+                        <ContentPresenter Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Setter TargetName="Border" Property="BorderBrush" Value="#FFFF0C57" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="Border" Property="Background" Value="#FFFF0C57" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" Property="Background" Value="#FFFF0C57" />
+                            <Setter TargetName="Border" Property="BorderBrush" Value="#FFFF0C57" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBlock x:Name="Home" HorizontalAlignment="Left" Margin="60,29,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" MouseDown="Home_MouseDown"/>
+        <TextBlock x:Name="Charts1" HorizontalAlignment="Left" Margin="220,29,0,0" TextWrapping="Wrap" Text="Charts" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Resources" HorizontalAlignment="Left" Margin="380,29,0,0" TextWrapping="Wrap" Text="Resources" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Technologies" Margin="560,29,271,0" TextWrapping="Wrap" Text="Technologies" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Developer" Margin="761,29,70,0" TextWrapping="Wrap" Text="Developer" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" Height="27"/>
+
+        <MaterialCards:MaterialCards Height="411" Margin="326,115,333,0" VerticalAlignment="Top" Width="Auto"/>
+
+    </Grid>
+</Window>
