@@ -19,3 +19,14 @@ C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\Al
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Algorithms.csprojResolveAssemblyReference.cache
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Algorithms.exe.manifest
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Algorithms.application
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.Wpf.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.pdb
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.xml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.Wpf.pdb
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\LiveCharts.Wpf.xml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Charts.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Res\Chart.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Charts.baml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Res\Chart.baml

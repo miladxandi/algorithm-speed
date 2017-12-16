@@ -17,14 +17,22 @@
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <UpdateUrl>http://miladzandi.ir/apps/algorithms-speed/</UpdateUrl>
+    <SupportUrl>https://miladzandi.ir</SupportUrl>
+    <ErrorReportUrl>https://miladzandi.ir</ErrorReportUrl>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>Algorithms Speed</ProductName>
+    <PublisherName>Milad Xandi</PublisherName>
+    <SuiteName>Algorithms Speed</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -53,10 +61,11 @@
     <StartupObject>Algorithms.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>F7D15E2BBF8B1A11C4D2B521EB49FE6458F3CA34</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>5140BA27899C3C489F84CD0B40221C5A21A89698</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Algorithms_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -66,6 +75,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Assets\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
