@@ -30,3 +30,8 @@ C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Re
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Charts.baml
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\Res\Chart.baml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\MaterialDesignColors.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Release\App.baml
