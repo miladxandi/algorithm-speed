@@ -50,7 +50,7 @@
         <RadioButton x:Name="binary" Content="Binary Search" Margin="0,0,9,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
         <RadioButton x:Name="linear" Content="Linear Search" Margin="0,0,111,229" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97"/>
         <RadioButton x:Name="qsort" Content="Quick Sort" Margin="0,0,213,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
-        <TextBlock x:Name="lblText" Margin="0,0,9,263" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
+        <TextBlock x:Name="lblText" Margin="0,0,9,326" TextWrapping="Wrap" Foreground="#FF20EE00" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="505" FontSize="20" TextAlignment="Center"/>
         <RadioButton x:Name="bsort" Content="Bubble Sort" Margin="0,0,315,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
         <RadioButton x:Name="hanoi" Content="Hanoi Sort" Margin="0,0,417,229" BorderBrush="White" Foreground="White" HorizontalAlignment="Right" Width="97" Height="15" VerticalAlignment="Bottom"/>
         <TextBlock x:Name="Home" HorizontalAlignment="Left" Margin="60,29,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
@@ -58,6 +58,8 @@
         <TextBlock x:Name="Resources" HorizontalAlignment="Left" Margin="380,29,0,0" TextWrapping="Wrap" Text="Resources" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
         <TextBlock x:Name="Technologies" Margin="560,29,271,0" TextWrapping="Wrap" Text="Technologies" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
         <TextBlock x:Name="Developer" Margin="761,29,70,0" TextWrapping="Wrap" Text="Developer" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" Height="27"/>
+        <TextBox x:Name="valGetter" Margin="0,0,10,275" TextWrapping="Wrap" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="300" FontSize="20" Text="1,2,3,4,..." SelectionBrush="#FFE17B9A" BorderBrush="#FFCE2156" Foreground="#FFCE2156" MouseEnter="valGetter_MouseEnter" MouseDown="valGetter_MouseDown" MouseLeave="valGetter_MouseLeave"/>
+        <TextBlock x:Name="lblText_Copy" Margin="0,0,325,275" TextWrapping="Wrap" Foreground="White" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="189" Text="Define a number or array (separate values with comma for array ):"/>
 
     </Grid>
 </Window>
