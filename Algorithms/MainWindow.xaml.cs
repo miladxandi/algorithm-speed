@@ -27,7 +27,7 @@ namespace Algorithms
             InitializeComponent();
         }
 
-        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        private void firstBtn_MouseEnter(object sender, MouseEventArgs e)
         {
             if (valGetter.Text == "" || valGetter.Text == "1,2,3,4,...")
             {
@@ -38,7 +38,6 @@ namespace Algorithms
                 firstBtn.Content = "Calculate";
             }
         }
-
         private void firstBtn_MouseLeave(object sender, MouseEventArgs e)
         {
             if (valGetter.Text == "" || valGetter.Text == "1,2,3,4,...")
@@ -443,13 +442,7 @@ namespace Algorithms
                 return $"Nah! The {error.Message} value did not found";
             }
         }
-
-        private void Charts_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            var Charts = new Charts(); //create your new form.
-            Charts.Show(); //show the new form.
-            this.Close(); //only if you want to close the current form.
-        }
+        
 
         private void valGetter_MouseEnter(object sender, MouseEventArgs e)
         {
@@ -489,6 +482,33 @@ namespace Algorithms
                 firstBtn.Content = "Calculate";
             }
         }
+        
+        private void Charts_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var Charts = new Charts(); //create your new form.
+            Charts.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
 
+        private void Resources_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var Resources = new Resources(); //create your new form.
+            Resources.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
+
+        private void Technologies_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var Technologies = new Technologies(); //create your new form.
+            Technologies.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
+
+        private void Developer_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var Developer = new Developer(); //create your new form.
+            Developer.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
     }
 }

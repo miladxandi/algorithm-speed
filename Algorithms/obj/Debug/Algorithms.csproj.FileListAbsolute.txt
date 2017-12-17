@@ -46,3 +46,15 @@ C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Algo
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Algorithms.application
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Algorithms.exe
 C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Debug\MaterialDesignColors.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\App.baml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Developer.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Resources.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Technologies.g.cs
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Developer.baml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Resources.baml
+C:\Users\farva\Source\Repos\Algorithms\algorithm-speed\Algorithms\obj\Debug\Technologies.baml

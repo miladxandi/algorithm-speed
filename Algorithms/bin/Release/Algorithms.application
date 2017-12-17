@@ -2,7 +2,14 @@
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <assemblyIdentity name="Algorithms.application" version="1.0.0.4" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Milad Xandi" co.v1:suiteName="Algorithms Speed" asmv2:product="Algorithms Speed" asmv2:supportUrl="https://miladzandi.ir/" co.v1:errorReportUrl="https://miladzandi.ir/" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <deployment install="true" mapFileExtensions="true" />
+  <deployment install="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="https://miladzandi.ir/apps/algorithms-speed/Algorithms.application" />
+  </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
@@ -14,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j7n0KDMq3byof6ZZNzjwTaVyOWlp27HlAGIzu/PV3ho=</dsig:DigestValue>
+        <dsig:DigestValue>bpCRsUT+CuhqKv3cOw9gy2udXjaO3QBzi45QBWXQIec=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

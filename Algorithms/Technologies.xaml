@@ -1,0 +1,20 @@
+﻿<Window x:Class="Algorithms.Technologies"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Algorithms"
+        mc:Ignorable="d"
+        Title="Technologies" Height="650" Width="986" MinWidth="986" MinHeight="650" Icon="Assets/Logo.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" >
+    <Grid Background="#FFE17B9A">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFCE2156" Margin="0,0,0,511" Stroke="#FFCE2156"/>
+        <TextBlock x:Name="Home" HorizontalAlignment="Left" Margin="60,29,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" MouseDown="Home_MouseDown"/>
+        <TextBlock x:Name="Charts" HorizontalAlignment="Left" Margin="220,29,0,0" TextWrapping="Wrap" Text="Charts" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" MouseDown="Charts_MouseDown"/>
+        <TextBlock x:Name="Resources" HorizontalAlignment="Left" Margin="380,29,0,0" TextWrapping="Wrap" Text="Resources" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" MouseDown="Resources_MouseDown"/>
+        <TextBlock x:Name="Technologiess" Margin="560,29,271,0" TextWrapping="Wrap" Text="Technologies" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand"/>
+        <TextBlock x:Name="Developer" Margin="761,29,70,0" TextWrapping="Wrap" Text="Developer" VerticalAlignment="Top" FontSize="20" Foreground="White" TextAlignment="Center" Cursor="Hand" Height="27" MouseDown="Developer_MouseDown"/>
+    </Grid>
+</Window>
