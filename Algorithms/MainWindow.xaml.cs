@@ -401,6 +401,48 @@ namespace Algorithms
                 return $"Nah! The {error.Message} value did not found";
             }
         }
+        public object Hanoi(int[] inputArray, int max, int min)
+        {
+            try
+            {
+                var sTime = DateTime.Now.Millisecond;
+                int t;
+                for (int p = 0; p <= inputArray.Length - 2; p++)
+                {
+                    System.Threading.Thread.Sleep(1);
+
+                    for (int i = 0; i <= inputArray.Length - 2; i++)
+                    {
+                        if (inputArray[i] > inputArray[i + 1])
+                        {
+                            t = inputArray[i + 1];
+                            inputArray[i + 1] = inputArray[i];
+                            inputArray[i] = t;
+                        }
+                    }
+                }
+                Color Green = new Color();
+                Green = Color.FromRgb(32, 238, 0);
+                lblText.Foreground = new SolidColorBrush(Green);
+                lblText.Text = "Yeah! We`ve sorted the array.";
+                var fTime = DateTime.Now.Millisecond;
+                int Time = fTime - sTime;
+                liView.Items.Add($"The array were sorted in {Time} millisecond with these values by Bubble sort:");
+                foreach (var item in inputArray)
+                {
+                    liView.Items.Add($"{item}");
+                }
+                return "Nah! the value not found";
+            }
+            catch (Exception error)
+            {
+                Color Red = new Color();
+                Red = Color.FromRgb(184, 35, 35);
+                lblText.Foreground = new SolidColorBrush(Red);
+                lblText.Text = $"Nah! The {error.Message} value did not found";
+                return $"Nah! The {error.Message} value did not found";
+            }
+        }
 
         private void Charts_MouseDown(object sender, MouseButtonEventArgs e)
         {
